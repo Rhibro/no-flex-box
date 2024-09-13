@@ -21,8 +21,6 @@ body {
   }
   
   ul {
-    /* display: flex;
-    justify-content: center; */
     text-align: center;
     padding: 10px 0;
     margin:  0 0;
@@ -69,7 +67,44 @@ body {
     background-color:  rgb(192, 159, 222);
   }
 
-  @media (max-width: 768px) {
+
+  /* main styles */
+
+  .container {
+    width: 100%;
+    overflow: hidden; 
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+
+  .column p {
+    background-color: #f3f3f3;
+    padding: 20px;
+    text-align: center;
+    background-color: #f3f3f3;
+    font-family: 'Baloo 2';
+    text-shadow:  2px 2px 2px rgb(40, 39, 39);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background-color: rgb(192, 159, 222);
+    border: 2px solid #FFFFFF;
+  }
+
+  .column p:hover {
+    color: rgb(192, 159, 222);
+    background-color: #FFFFFF;
+  }
+
+  /* Responsive Layout */
+
+  @media (max-width: 767px) {
   
     .nav-links {
         position: fixed;
@@ -106,41 +141,6 @@ body {
     }
   }
 
-  /* main styles */
-
-  .container {
-    width: 100%;
-    overflow: hidden; /* Clearfix to manage float issues */
-  }
-
-  .column {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-  }
-
-  .column p {
-    background-color: #f3f3f3;
-    padding: 20px;
-    text-align: center;
-    background-color: #f3f3f3;
-    font-family: 'Baloo 2';
-    text-shadow:  2px 2px 2px rgb(40, 39, 39);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 25px;
-    color: #FFFFFF;
-    background-color: rgb(192, 159, 222);
-    border: 2px solid #FFFFFF;
-  }
-
-  .column p:hover {
-    color: rgb(192, 159, 222);
-    background-color: #FFFFFF;
-  }
-
-  /* Responsive Layout */
   @media (max-width: 768px) {
     .column {
       width: 50%;
