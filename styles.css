@@ -15,9 +15,6 @@ body {
     min-height: 75px;
     cursor: pointer;
     background-color: #FFFFFF;
-    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
-      -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
-      box-shadow: 5px 5px 5px 0px rgba(215, 193, 236, 0.75);
   }
   
   ul {
@@ -70,6 +67,24 @@ body {
 
   /* main styles */
 
+  h1 {
+    background-color: #f3f3f3;
+    padding: 20px;
+    text-align: center;
+    background-color: #f3f3f3;
+    font-family: 'Baloo 2';
+    text-shadow:  2px 2px 2px rgb(40, 39, 39);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 45px;
+    color: #FFFFFF;
+    background-color: rgb(192, 159, 222);
+    cursor: default;
+    width: 100%;
+    overflow: hidden;
+  }
+
   .container {
     width: 100%;
     overflow: hidden; 
@@ -95,6 +110,7 @@ body {
     color: #FFFFFF;
     background-color: rgb(192, 159, 222);
     border: 2px solid #FFFFFF;
+    cursor: default;
   }
 
   .column p:hover {
